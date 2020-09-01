@@ -1,3 +1,8 @@
+
+@media screen and (max-width:1199px){
+.carousel-control-next, .carousel-control-prev { width:1em;  }
+}
+
 @media screen and (min-width:1200px){
 .container { max-width: 960px; }
 }
@@ -36,8 +41,9 @@
 @media screen and (max-width:599px){
 .box .txt-cont h3 { margin-top:0.8em; }
 header .logo img { max-width: 12em; }
-.footer-link-box + .footer-link-box {margin-top: 2em;; }
+.footer-link-box + .footer-link-box {margin-top: 2em; }
 .box { margin:1em 0; }
 .btn-container { margin-top: 2em; }
+.acc-sec-list > li { width:100%; float: none;}
 }
 
