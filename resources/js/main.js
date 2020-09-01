@@ -12,3 +12,19 @@ $(document).ready(function() {
         $menuLeft.toggleClass('pushmenu-open');
     });
 });
+
+$('.acc-sec-list').each(function(){
+    $(this).find('.acc-sec').each(function(){
+        $(this).find('.txt').hide();
+        $(this).click(function(e){
+            e.preventDefault();
+            if(!$(this).hasClass('active')){
+                $(this).addClass('active');
+                $(this).find('.txt').show();
+            }else{
+                $(this).removeClass('active');
+                $(this).find('.txt').hide();
+            }
+        })
+    });
+});

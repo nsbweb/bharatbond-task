@@ -78,9 +78,23 @@ header nav { display: inline; }
 
 .acc-sec-list { display: block; list-style: none; padding:0; margin:0 -0.8em; }
 .acc-sec-list > li { width:50%; display: inline-block; float: left; padding:0 0.8em;}
-.acc-sec-list  .acc-sec { position: relative;  padding: 1.6em; margin: 0.8em 0; box-shadow: 0 0 26px 0 #3838381a; }
+.acc-sec-list .acc-sec { position: relative;  padding: 1.6em; margin: 0.8em 0; box-shadow: 0 0 26px 0 #3838381a;  padding-left: 3.6em;}
+.acc-sec-list .acc-sec:before,
+.acc-sec-list .acc-sec:after { transition: all 600ms;  content: '\f068'; position: absolute; left:0.3em; top:0.8em;font-family:'FontAwesome'; width:1.2em; height: 1.2em; line-height: 1.2em; text-align: center; font-size: 1.8em; color: #0050c7;}
+.acc-sec-list .acc-sec:before {  }
+.acc-sec-list .acc-sec:after { left:0.26em; top:0.75em;
+    -ms-transform: rotate(90deg); /* IE 9 */ 
+    transform: rotate(90deg); /* Standard syntax */
+}
+.acc-sec-list .acc-sec.active:after { left:0.3em; top:0.8em;
+    -ms-transform: rotate(0deg); /* IE 9 */ 
+    transform: rotate(0deg); /* Standard syntax */ 
+}
+.acc-sec-list .acc-sec > a { font-size: 1.4em; color: #191919; padding: 0 0 0 0; line-height: 1.5em; cursor: pointer; text-decoration: none; font-weight: 700;}
+
 .link-list { list-style: none; align-items: center ; display: flex; -webkit-box-pack: center!important; -ms-flex-pack: center!important; justify-content: center!important;}
 .link-list li { display: inline-block; }
+.link-list li + li { margin-left: 0.9em; }
 /* Main-Content css */
 
 /* Footer css */
