@@ -10,7 +10,8 @@
 .bdr-mid { border-right: 1px solid #ececec; }
 p:last-child { margin-bottom: 0; }
 img {  max-width: 100%; }
-.bg-blue { background: #2857a4 !important; color:#fff;} 
+.bg-blue { background: #2857a4 !important; color:#fff;}
+.bg-table { background:#fcdbd0 !important;  }
 .btn-user { padding:0; }
 .btn-container { clear: both; }
 /*Common Css*/
@@ -90,7 +91,7 @@ nav a:hover { color: #fff; }
 
 .acc-sec-list { display: block; list-style: none; padding:0; margin:0 -0.8em; }
 .acc-sec-list > li { width:50%; display: inline-block; float: left; padding:0 0.8em;}
-.acc-sec-list .acc-sec { position: relative;  padding: 1.6em; margin: 0.8em 0; box-shadow: 0 0 26px 0 #3838381a;  padding-left: 3.6em;}
+.acc-sec-list .acc-sec { position: relative;  padding: 1.6em; margin: 0.8em 0; box-shadow: 0 0 26px 0 #3838381a;  padding-left: 3.6em; min-height: 7em;}
 .acc-sec-list .acc-sec:before,
 .acc-sec-list .acc-sec:after { transition: all 600ms;  content: '\f068'; position: absolute; left:0.3em; top:0.8em;font-family:'FontAwesome'; width:1.2em; height: 1.2em; line-height: 1.2em; text-align: center; font-size: 1.8em; color: #0050c7;}
 .acc-sec-list .acc-sec:before {  }
@@ -110,6 +111,14 @@ nav a:hover { color: #fff; }
 .form-control { border-radius: 0; background: none; border: 0; border-bottom:1px solid #fff;  color:rgba(255,255,255,0.2); padding-right: 0; padding-left: 0;}
 label a { color:#fff; text-decoration: underline; }  
 .manage-sec { max-width: 25em; }
+
+.resp-tables { margin:0; }
+.resp-tables .table {width:100%; }
+.resp-tables .table td { padding: 1em;; }
+.resp-tables .table td, .resp-tables .table th { border-color: #aaa; text-align: right; vertical-align: bottom; }
+.resp-tables .table td:first-child, .resp-tables .table th:first-child { text-align: left; }
+.resp-tables .table td b { display: block;  }
+.resp-tables .table td b span { font-weight: 400; }
 /* Main-Content css */
 
 /* Footer css */
