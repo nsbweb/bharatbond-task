@@ -1,0 +1,43 @@
+@media screen and (min-width:1200px){
+.container { max-width: 960px; }
+}
+
+@media screen and (max-width:1366px){
+
+}
+
+@media screen and (min-width:1367px){
+    
+}
+
+@media screen and (max-width:1366px){
+
+}
+
+@media screen and (min-width:768px){
+.managed-by p { max-width:40em} 
+
+}
+
+@media screen and (max-width:768px){
+/*Push Menu Css*/
+#menu-trigger { display: block;  }
+.pushmenu { background: #444; text-align: center; font-family: Tahoma, Geneva, sans-serif; width: 300px; height: 100%; top: 0; z-index: 1000; position: fixed; }
+.pushmenu h3 { color: #f1f1f1; font-size: 1.3em; font-weight: 400; padding: 15px 25px; margin: 0; background: #333; height: 16px; } 
+.pushmenu-left { left: -300px; } 
+.pushmenu-left.pushmenu-open { left: 0; }
+.pushmenu-push { overflow-x: hidden; position: relative; left: 0; }
+.pushmenu-push-toright { left: 300px; }
+.pushmenu, .pushmenu-push { -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease; }
+/*Push Menu Css*/
+}
+
+
+@media screen and (max-width:599px){
+.box .txt-cont h3 { margin-top:0.8em; }
+header .logo img { max-width: 12em; }
+.footer-link-box + .footer-link-box {margin-top: 2em;; }
+.box { margin:1em 0; }
+.btn-container { margin-top: 2em; }
+}
+
