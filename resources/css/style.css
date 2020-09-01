@@ -1,7 +1,7 @@
 /*Common Css*/
 .btn { border-radius: 0; font-size:1em; }
 .btn-outline-primary { border-color: #003c87; color:#003c87;} 
-.btn-orange { display: inline-block; vertical-align: middle; margin: -2px 0 0; background: #ea5a00; color: #fff; border-radius: 0px!important; text-transform: capitalize; box-shadow: none!important; }
+.btn-orange { display: inline-block; vertical-align: middle; background: #ea5a00; color: #fff; text-transform: capitalize; box-shadow: none!important; font-weight: 600; }
 .btn-orange:hover { color: #fff; background: #ea5a00; }
 .main-tl { font-size: 2em; color: #2c2c2c; padding-bottom: 1em; letter-spacing: .25px; font-weight: 700;  text-align: center;}
 .bg-blue .main-tl { color: #ffff; }  
@@ -9,7 +9,7 @@
 .bdr-tp { border-top: 1px solid #ececec; }
 .bdr-mid { border-right: 1px solid #ececec; }
 p:last-child { margin-bottom: 0; }
-img { max-width: 100%; }
+img {  max-width: 100%; }
 .bg-blue { background: #2857a4 !important; color:#fff;} 
 .btn-user { padding:0; }
 .btn-container { clear: both; }
@@ -78,8 +78,6 @@ nav a:hover { color: #fff; }
 .carousel-indicators li { width: 0.6em; height: 0.6em; display: inline-block; border-radius: 100%; background:rgba(0,0,0,0.2); cursor: pointer;}  
 .carousel-indicators li.active {  background:rgba(0,122,255,1);} 
 .carousel-control-next, .carousel-control-prev { width:3em; font-size: 2em; bottom:0.5em;}
-.carousel-control-next { left:100%;  } 
-.carousel-control-prev { right:100%; left: auto;} 
 .carousel-control-next-icon, .carousel-control-prev-icon { width:1.5em; height:1.5em; line-height: 1.5em; background:none;}
 .carousel-control-next-icon:before,
 .carousel-control-prev-icon:before { content:""; font-family: 'FontAwesome'; color:#000; }
@@ -109,10 +107,9 @@ nav a:hover { color: #fff; }
 .link-list { list-style: none; align-items: center ; display: flex; -webkit-box-pack: center!important; -ms-flex-pack: center!important; justify-content: center!important;}
 .link-list li { display: inline-block; margin:0  0.45em; } 
 
-.form-row{ margin-right:-2em; margin-left:-2em; }
-.form-row>.col, .form-row>[class*=col-] { padding-right:2em; padding-left:2em; }
 .form-control { border-radius: 0; background: none; border: 0; border-bottom:1px solid #fff;  color:rgba(255,255,255,0.2); padding-right: 0; padding-left: 0;}
 label a { color:#fff; text-decoration: underline; }  
+.manage-sec { max-width: 25em; }
 /* Main-Content css */
 
 /* Footer css */

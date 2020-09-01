@@ -21,7 +21,10 @@
 
 @media screen and (min-width:768px){
 .managed-by p { max-width:40em} 
-
+.carousel-control-next { left:100%;  } 
+.carousel-control-prev { right:100%; left: auto;} 
+.form-row{ margin-right:-2em; margin-left:-2em; }
+.form-row>.col, .form-row>[class*=col-] { padding-right:2em; padding-left:2em; }
 }
 
 @media screen and (max-width:768px){
@@ -40,6 +43,8 @@
 .pushmenu-left.pushmenu-open ul li a { padding: 0.5em 0em;}
 .pushmenu-left.pushmenu-open ul li .btn-orange { min-width: 10em; }
 /*Push Menu Css*/
+.btn-user { display: none; }
+
 }
 
 
@@ -53,5 +58,8 @@ header .logo img { max-width: 12em; }
 .acc-sec-list > li { width:100%; float: none;}
 .link-list { display: block; }
 .link-list li { display: block; text-align: center; }
+.footer-link.mob-50 { width:100%; }
+.footer-link.mob-50 li { width:50%; float: left; margin: 0.5em 0; }
+.footer-link.mob-50  > li + li { margin-top: 0.5em; }
 }
 
