@@ -26,24 +26,32 @@
 
 @media screen and (max-width:768px){
 /*Push Menu Css*/
+.nav-shade { background:rgba(0,0,0,0.5); position: fixed; left: 0; top: 0; bottom: 0; right:0; z-index: 2; }
 #menu-trigger { display: block;  }
-.pushmenu { background: #444; text-align: center; font-family: Tahoma, Geneva, sans-serif; width: 300px; height: 100%; top: 0; z-index: 1000; position: fixed; }
+.pushmenu { background: #2857a4; text-align: center; font-family: Tahoma, Geneva, sans-serif; width: 300px; height: 100%; top: 0; z-index: 1000; position: fixed; }
 .pushmenu h3 { color: #f1f1f1; font-size: 1.3em; font-weight: 400; padding: 15px 25px; margin: 0; background: #333; height: 16px; } 
 .pushmenu-left { left: -300px; } 
 .pushmenu-left.pushmenu-open { left: 0; }
 .pushmenu-push { overflow-x: hidden; position: relative; left: 0; }
 .pushmenu-push-toright { left: 300px; }
 .pushmenu, .pushmenu-push { -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease; }
+.pushmenu-left.pushmenu-open ul { width: 100%; border-bottom: 1px solid rgba(255,255,255,.2); padding: 1em 0; }
+.pushmenu-left.pushmenu-open ul li { display: block; text-align: left; padding: 0 1em;}
+.pushmenu-left.pushmenu-open ul li a { padding: 0.5em 0em;}
+.pushmenu-left.pushmenu-open ul li .btn-orange { min-width: 10em; }
 /*Push Menu Css*/
 }
 
 
 @media screen and (max-width:599px){
+body {font-size: 12px;}
 .box .txt-cont h3 { margin-top:0.8em; }
 header .logo img { max-width: 12em; }
 .footer-link-box + .footer-link-box {margin-top: 2em; }
 .box { margin:1em 0; }
 .btn-container { margin-top: 2em; }
 .acc-sec-list > li { width:100%; float: none;}
+.link-list { display: block; }
+.link-list li { display: block; text-align: center; }
 }
 

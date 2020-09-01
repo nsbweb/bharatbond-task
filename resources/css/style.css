@@ -12,6 +12,7 @@ p:last-child { margin-bottom: 0; }
 img { max-width: 100%; }
 .bg-blue { background: #2857a4 !important; color:#fff;} 
 .btn-user { padding:0; }
+.btn-container { clear: both; }
 /*Common Css*/
 
 /* Custom Fonts Css */
@@ -29,7 +30,7 @@ img { max-width: 100%; }
 
 /*Layout Css */
 body { font-family: 'Open Sans'; font-size:14px; }
-header { position: fixed;  width: 100%; top: 0; padding: 10px 0; height: 60px; background-color: #2857a4; z-index: 2;} 
+header { position: fixed;  width: 100%; top: 0; padding: 10px 0; height: 60px; background-color: #2857a4; z-index: 3; display: flex; -webkit-box-align: center!important; -ms-flex-align: center!important; align-items: center!important; } 
 .header-desktop .container { max-width:1100px; }
 .section { position: relative; z-index: 1; padding: 2.5em 0; margin-bottom: 1em; background: #fff; }
 .section .section { padding: 2em 0; margin-bottom: 0em; }
@@ -37,12 +38,14 @@ footer .section { margin-bottom: 0; }
 /*Layout Css */
 
 /* Header Css */
-header .logo img {  max-width:28em; } 
+header .logo img {  max-width:28em; }
+header nav { display: inline-block; } 
+nav ul { list-style: none; padding:0; margin: 0; }
+nav ul li { list-style: none; padding:0; margin: 0; display: inline-block;  }
 nav a { display: inline-block; color: #fff; padding: 10px 15px; opacity: .8; font-weight: 700; cursor: pointer; font-size:1em; font-family: 'Open Sans'; }
 nav a.btn { font-weight: 700; }
 nav a:hover { color: #fff; }
 #menu-trigger { display: none;  background: url(../images/common/hamburger.png) no-repeat center center;  width:2.6em; height: 2.14em; top: 1.2em; cursor: pointer; }
-header nav { display: inline; }
 /* Header Css */
 
 /* Banner Css */
@@ -104,10 +107,7 @@ header nav { display: inline; }
 .acc-sec-list .acc-sec > a { font-size: 1.4em; color: #191919; padding: 0 0 0 0; line-height: 1.5em; cursor: pointer; text-decoration: none; font-weight: 700;}
 
 .link-list { list-style: none; align-items: center ; display: flex; -webkit-box-pack: center!important; -ms-flex-pack: center!important; justify-content: center!important;}
-.link-list li { display: inline-block; }
-.link-list li + li { margin-left: 0.9em; }
-
-.btn-container { clear: both; }
+.link-list li { display: inline-block; margin:0  0.45em; } 
 
 .form-row{ margin-right:-2em; margin-left:-2em; }
 .form-row>.col, .form-row>[class*=col-] { padding-right:2em; padding-left:2em; }
